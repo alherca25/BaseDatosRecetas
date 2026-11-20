@@ -4,7 +4,7 @@
 
 **Recetario en JSON para la app [Cocina Rápida](https://github.com/alherca25/CocinaArguinyano).**
 
-![Recetas](https://img.shields.io/badge/recetas-95-C8553D)
+![Recetas](https://img.shields.io/badge/recetas-126-C8553D)
 ![Categorías](https://img.shields.io/badge/categorías-11-3B2F25)
 ![Formato](https://img.shields.io/badge/formato-JSON-black?logo=json)
 
@@ -72,20 +72,27 @@ El archivo es un objeto. Cada clave es una categoría y su valor es una lista de
 
 ## Categorías
 
-| Categoría | Recetas |
-|---|---:|
-| Sopas | 3 |
-| Cremas | 2 |
-| Verduras | 4 |
-| Legumbres | 9 |
-| Huevos | 4 |
-| Arroces | 12 |
-| Pastas | 12 |
-| Carnes | 14 |
-| Pescados | 15 |
-| Postres | 14 |
-| Panes | 6 |
-| **Total** | **95** |
+| Categoría | Recetas | Vegetarianas | Sin gluten |
+|---|---:|---:|---:|
+| Sopas | 5 | 2 | 1 |
+| Cremas | 5 | 3 | 4 |
+| Verduras | 7 | 4 | 3 |
+| Legumbres | 12 | 4 | 8 |
+| Huevos | 7 | 3 | 4 |
+| Arroces | 15 | 2 | 13 |
+| Pastas | 15 | 3 | 0 |
+| Carnes | 17 | 0 | 10 |
+| Pescados | 18 | 0 | 8 |
+| Postres | 17 | 17 | 7 |
+| Panes | 8 | 5 | 1 |
+| **Total** | **126** | **43** | **59** |
+
+**Criterio de los filtros:**
+- *Vegetariana* significa ovo-láctea: sin carne, pescado, marisco ni caldos de origen animal. Puede llevar huevo, leche y queso.
+- *Sin gluten* significa que ningún ingrediente lleva trigo, cebada, centeno o avena. Se descartan también los procesados que suelen llevarlos, como la salsa de soja, las pastillas de caldo o la morcilla.
+- Si cocinas para alguien con celiaquía, revisa siempre las etiquetas de los productos.
+
+Las recetas sin página no son del libro: se añadieron después.
 
 Para crear una categoría nueva basta con añadir una clave al JSON. Las apps la muestran sin cambiar su código.
 
